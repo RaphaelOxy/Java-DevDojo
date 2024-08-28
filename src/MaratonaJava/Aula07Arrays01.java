@@ -9,6 +9,11 @@ public class Aula07Arrays01 {
         Scanner sc = new Scanner(System.in);
 
         int[] idades = new int[3];
+        idades[0] = 21;
+        idades[1] = 13;
+        idades[2] = 17;
+
+        System.out.println(idades[1]);
 
         
 
