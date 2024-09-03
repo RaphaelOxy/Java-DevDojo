@@ -37,4 +37,31 @@ public class Calculadora {
             System.out.println(num1 / num2);
         }
     }
+
+    public void alteraDoisNumeros(int numero1, int numero2){
+        numero1 = 99;
+        numero2 = 33;
+        System.out.println("Dentro do alteraDoisNumeros");
+        System.out.println("num1 " + numero1);
+        System.out.println("num2 " + numero2);
+
+
+    }
+    //Aula 52
+    public void somaArray(int[] numeros) {
+        int soma = 0;
+        for (int num:numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    //No VarArgs, em caso de mais de 1 atributo, o que será o array/VarArgs, deverá ser o último
+    public void somaVarArgs (double valor, int...numeros){
+        int soma = 0;
+        for (int num:numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }
